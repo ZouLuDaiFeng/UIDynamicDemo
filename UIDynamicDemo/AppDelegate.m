@@ -95,4 +95,13 @@
     }
 }
 
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSLog(@"AppDelegate--touchesBegan");
+    
+    //    CGPoint point = [[touches anyObject] locationInView:self.view];
+    //    [self gravityBehavior:point];
+}
+
 @end

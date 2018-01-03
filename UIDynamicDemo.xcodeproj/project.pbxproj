@@ -14,6 +14,7 @@
 		81BF6E091FFB8C9400519D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BF6E081FFB8C9400519D03 /* Assets.xcassets */; };
 		81BF6E0C1FFB8C9400519D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BF6E0A1FFB8C9400519D03 /* LaunchScreen.storyboard */; };
 		81BF6E0F1FFB8C9400519D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BF6E0E1FFB8C9400519D03 /* main.m */; };
+		81BF6E171FFCDA1300519D03 /* UIButton+touchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BF6E161FFCDA1300519D03 /* UIButton+touchTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		81BF6E0B1FFB8C9400519D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81BF6E0D1FFB8C9400519D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81BF6E0E1FFB8C9400519D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81BF6E151FFCDA1300519D03 /* UIButton+touchTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+touchTest.h"; sourceTree = "<group>"; };
+		81BF6E161FFCDA1300519D03 /* UIButton+touchTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+touchTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				81BF6DFD1FFB8C9400519D03 /* AppDelegate.m */,
 				81BF6DFF1FFB8C9400519D03 /* ViewController.h */,
 				81BF6E001FFB8C9400519D03 /* ViewController.m */,
+				81BF6E151FFCDA1300519D03 /* UIButton+touchTest.h */,
+				81BF6E161FFCDA1300519D03 /* UIButton+touchTest.m */,
 				81BF6E021FFB8C9400519D03 /* Main.storyboard */,
 				81BF6E081FFB8C9400519D03 /* Assets.xcassets */,
 				81BF6E0A1FFB8C9400519D03 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 				81BF6E011FFB8C9400519D03 /* ViewController.m in Sources */,
 				81BF6E0F1FFB8C9400519D03 /* main.m in Sources */,
 				81BF6DFE1FFB8C9400519D03 /* AppDelegate.m in Sources */,
+				81BF6E171FFCDA1300519D03 /* UIButton+touchTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UN98Y2FA43;
 				INFOPLIST_FILE = UIDynamicDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZhangChuan.UIDynamicDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UN98Y2FA43;
 				INFOPLIST_FILE = UIDynamicDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZhangChuan.UIDynamicDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
